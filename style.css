@@ -1,110 +1,50 @@
-/*ul {
-  column-count: 6;
-  column-gap: 100px;
-}
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
-ul li {
-  display: inline;
-  margin-right: 30px;
-  line-height: 50px;
-   margin: 0;
-  }*/
-.box {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 8vw;
-
-}
-.box2 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 10vw;
-}
-.box3 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 15vw;
-}
-.box4 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 10vw;
-
-}
-.box5 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 14vw;
-}
-.box6 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 5vw;
-}
-.box7 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 9.5vw;
-}
-.box8 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 14vw;
-}
-.box9 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 14vw;
-
-}
-.box10 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 12vw;
-}
-.box11 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 2vw;
-  margin-bottom: 2VW;
-}
-.box12 {
-  margin-left: 31vw;
-  margin-right: 10vw;
-  margin-top: 24vw;
-}
-.box13 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 15vw;
-
-}
-.box14 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 15vw;
-}
-.box15 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 15vw;
-}
-.box16 {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-top: 19vw;
-}
 body {
-   text-transform: uppercase;
-   font-family: 'Roboto Condensed', sans-serif;
- }
- select {
-   font-size: 20px;
-   color: #C4C4C4;
-   border-color: rgb(255,255,255);
-   width: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+  line-height: 1em;
+  color: #1E90FF;
+}
 
- }
- a:hover {
-   color: rgba(255, 0, 0, 0.5);
- }
+#cursor {
+  animation: blinker 1s step-end infinite;
+  //you can change 'step-end' to 'linear' for smooth transition
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+#container {
+  /*background-color: #FF0000;*/
+  width: 70%;
+  padding: 50px;
+  margin-left: 30%;
+  word-wrap: break-word;
+  text-align:center;
+}
+/*.container2 {
+  background-color: #FF0000;
+  width: 40%;
+  padding: 50px;
+  margin-left: 70%;
+  margin-top: 10%;
+  word-wrap: break-word;
+  text-align:center;
+}*/
+.inner {
+  /*display:block;*/
+}
+.pink {
+  color: pink;
+}
+/*.makeblue {
+  background-color: blue;
+}*/
+/*.boxy {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+
+}
