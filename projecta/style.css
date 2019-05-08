@@ -1,0 +1,15 @@
+@font-face {
+  font-family: iphonefont;
+  src: url(assets/SF-Pro-Display-Regular.otf);
+}
+body {
+  font-size: 60px;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  background-color: #0000FF;
+  /*font-family: 'EB Garamond', serif;*/
+}
+a {
+  text-decoration: none;
+  color: #FF0000;
+}

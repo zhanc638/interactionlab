@@ -1,0 +1,52 @@
+/* * {
+position: fixed;
+top: 0;
+}
+.red {
+  left:0;
+  width: 900px;
+  height: 4000px;
+  z-index: 2;
+  background: red;
+}
+   .blue {
+       left:0;
+       width:800px;
+       height:5000px;
+       z-index: 1;
+       background: blue;
+   } */
+
+
+ /* * {
+   display: flex !important;
+   margin: 0 !important;
+   padding: 0 !important;
+   position: static !important;
+   margin-right: 100px !important;
+   margin-bottom: 100px !important;
+ }
+
+ script, style {
+   display: none !important;
+ } */
+
+/* * {
+  position: fixed;
+  top: 0;
+} */
+
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 25vw);
+  grid-gap: 30px;
+  background-color: gray;
+}
+
+body > * {
+  background-color: white;
+}
+
+img, video {
+  max-width: 100%;
+}

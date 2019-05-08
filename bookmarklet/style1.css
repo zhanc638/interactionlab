@@ -1,0 +1,14 @@
+h1 {
+  font-family: helvetica;
+  margin-top: 350px;
+
+}
+h2 {
+  font-family: courier, monospace;
+  /*margin-top: 15vw;*/
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+  color: #FF0000;
+}
